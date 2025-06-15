@@ -1,8 +1,11 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 @layer base {
     body{
        @apply font-body;
 }
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-display text-gray-900 font-medium;
     }
+}
  
